@@ -1,4 +1,3 @@
-#include <fmt/core.h>        // For fmt::format
 #include <spdlog/cfg/env.h>  // Allows reading log level from env variable
 
 #include <chrono>    // For chrono_literals
