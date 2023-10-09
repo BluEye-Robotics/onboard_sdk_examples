@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['add_5fcallback_0',['add_callback',['../classblunux_1_1pmu_1_1_i_p_m_u_callbacks.html#a7739c2993260bebc448b4ef1951d9246',1,'blunux::pmu::IPMUCallbacks::add_callback(std::function&lt; void(const TTempHumidity &amp;)&gt; cb)=0'],['../classblunux_1_1pmu_1_1_i_p_m_u_callbacks.html#abb27110e4f6012e8167dd6e4fca08193',1,'blunux::pmu::IPMUCallbacks::add_callback(std::function&lt; void(const TBatteryStatus &amp;)&gt; cb)=0'],['../classblunux_1_1pmu_1_1_i_p_m_u_callbacks.html#a2186390b5d28afae827a10b13d01ef07',1,'blunux::pmu::IPMUCallbacks::add_callback(std::function&lt; void(const TBatteryInfo &amp;)&gt; cb)=0'],['../classblunux_1_1pmu_1_1_i_p_m_u_callbacks.html#a5ed1a73ac288fa89a9c44b6d4b6f233d',1,'blunux::pmu::IPMUCallbacks::add_callback(std::function&lt; void(TPMUError)&gt; cb)=0']]]
+];
