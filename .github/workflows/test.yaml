@@ -1,0 +1,13 @@
+name: cpplint
+on: [push]
+jobs:
+  cpplint:
+    runs-on: ubuntu-latest
+    container:
+      image: blunux-onboard-sdk:blunux-3.3-x86_64
+      volumes:
+        - my_docker_volume:/volume_mount
+    steps:
+      - uses: actions/checkout@v2
+      - name: Check for dockerenv file
+        run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
