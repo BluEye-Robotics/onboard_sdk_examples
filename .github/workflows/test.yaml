@@ -1,10 +1,10 @@
 name: test
 on: [push]
 jobs:
-  cpplint:
+  test:
     runs-on: ubuntu-latest
     container:
-      image: blunux-onboard-sdk:blunux-3.3-x86_64
+      image: blueye-robotics/blunux-onboard-sdk:blunux-3.3-x86_64
       volumes:
         - my_docker_volume:/volume_mount
     steps:
