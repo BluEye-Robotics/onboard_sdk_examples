@@ -19,6 +19,8 @@ message(STATUS "FMT_LIBRARY_DIRS = ${FMT_LIBRARY_DIRS}")
 find_package(spdlog REQUIRED)
 message(STATUS "SPDLOG_LIBRARIES = ${SPDLOG_LIBRARIES}")
 
+add_definitions(-DSPDLOG_COMPILED_LIB)
+
 IF("${SPDLOG_LIBRARIES}" STREQUAL "")
     set(SPDLOG_LIBRARIES spdlog::spdlog)
 ENDIF()
