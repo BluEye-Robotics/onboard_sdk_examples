@@ -10,4 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Check for dockerenv file
-        run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
+        run: |
+          cd /root/workspace
+          mkdir -p build
+          cd build
+          cmake ..
+          make
