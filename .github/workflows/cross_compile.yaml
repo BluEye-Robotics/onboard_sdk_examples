@@ -1,0 +1,19 @@
+name: cross_compile
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/blueye-robotics/blunux-onboard-sdk:blunux-3.3-x86_64
+      volumes:
+        - .:/root/workspace
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        run: |
+          . /opt/poky/3.4.4/environment-setup-cortexa9t2hf-neon-poky-linux-gnueabi
+          cd /root/workspace
+          mkdir -p build
+          cd build
+          cmake ..
+          make
