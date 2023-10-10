@@ -1,4 +1,4 @@
-name: cpplint
+name: test
 on: [push]
 jobs:
   cpplint:
