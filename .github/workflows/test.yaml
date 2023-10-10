@@ -11,6 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Check for dockerenv file
         run: |
+          source /opt/poky/3.4.4/environment-setup-cortexa9t2hf-neon-poky-linux-gnueabi
           cd /root/workspace
           mkdir -p build
           cd build
