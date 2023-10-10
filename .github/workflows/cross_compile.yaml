@@ -1,7 +1,7 @@
-name: test
+name: cross_compile
 on: [push]
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/blueye-robotics/blunux-onboard-sdk:blunux-3.3-x86_64
