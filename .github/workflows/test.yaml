@@ -4,9 +4,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     container:
-      image: blueye-robotics/blunux-onboard-sdk:blunux-3.3-x86_64
+      image: ghcr.io/blueye-robotics/blunux-onboard-sdk:blunux-3.3-x86_64
       volumes:
-        - my_docker_volume:/volume_mount
+        - .:/root/workspace
     steps:
       - uses: actions/checkout@v2
       - name: Check for dockerenv file
