@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(blunux REQUIRED)
-
 message(STATUS "blunux_FOUND = ${blunux_FOUND}")
 message(STATUS "blunux_LIBRARIES = ${blunux_LIBRARIES}")
 message(STATUS "blunux_LIB_DIRS = ${blunux_LIB_DIRS}")
@@ -17,15 +16,20 @@ message(STATUS "FMT_LIBRARIES = ${FMT_LIBRARIES}")
 message(STATUS "FMT_LIBRARY_DIRS = ${FMT_LIBRARY_DIRS}")
 
 find_package(spdlog REQUIRED)
-message(STATUS "SPDLOG_LIBRARIES = ${SPDLOG_LIBRARIES}")
 
+# Order seems to be important here
+add_definitions(-DSPDLOG_FMT_EXTERNAL)
 add_definitions(-DSPDLOG_COMPILED_LIB)
+
+message(STATUS "SPDLOG_LIBRARIES = ${SPDLOG_LIBRARIES}")
 
 IF("${SPDLOG_LIBRARIES}" STREQUAL "")
     set(SPDLOG_LIBRARIES spdlog::spdlog)
+    message(STATUS "SPDLOG_LIBRARIES = ${SPDLOG_LIBRARIES}")
 ENDIF()
 
-message(STATUS "SPDLOG_LIBRARIES = ${SPDLOG_LIBRARIES}")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -g")
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 include_directories(${blunux_INCLUDE_DIRS})
 link_directories(${blunux_LIB_DIRS} ${FMT_LIBRARY_DIRS})
