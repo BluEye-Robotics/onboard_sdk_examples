@@ -43,4 +43,4 @@ cmake ..
 make -j $(nproc)
 ```
 
-Afterwards, you programs are in the build folder
+Afterwards, the programs are in the build folder
