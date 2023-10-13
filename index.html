@@ -79,20 +79,19 @@ Getting Started</h1>
 <ol type="1">
 <li>Install the Blueye SDK by downloading the latest release.</li>
 <li><p class="startli">Include the necessary headers and libraries in your project. For example, you may need to include the following:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;blueye/drone/PioneerDrone.hpp&gt;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;blueye/drone/Drone.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;blueye/imu/ImuData.hpp&gt;</span></div>
 </div><!-- fragment --></li>
-<li><p class="startli">Create an instance of the <code><a class="el" href="classblunux_1_1drone_1_1_pioneer_drone.html" title="Class representing a drone.">blunux::drone::PioneerDrone</a></code> class to interact with a Pioneer class drone (Pioneer class: Pioneer, Pro, X3):</p>
-<div class="fragment"><div class="line"><a class="code hl_class" href="classblunux_1_1drone_1_1_pioneer_drone.html">blunux::drone::PioneerDrone</a> drone;</div>
-<div class="ttc" id="aclassblunux_1_1drone_1_1_pioneer_drone_html"><div class="ttname"><a href="classblunux_1_1drone_1_1_pioneer_drone.html">blunux::drone::PioneerDrone</a></div><div class="ttdoc">Class representing a drone.</div><div class="ttdef"><b>Definition:</b> PioneerDrone.hpp:31</div></div>
+<li><p class="startli">Create an instance of the <code><a class="el" href="classblunux_1_1drone_1_1_drone.html" title="Class representing a drone.">blunux::drone::Drone</a></code> class to interact with the drone:</p>
+<div class="fragment"><div class="line"><a class="code hl_class" href="classblunux_1_1drone_1_1_drone.html">blunux::drone::Drone</a> drone;</div>
+<div class="ttc" id="aclassblunux_1_1drone_1_1_drone_html"><div class="ttname"><a href="classblunux_1_1drone_1_1_drone.html">blunux::drone::Drone</a></div><div class="ttdoc">Class representing a drone.</div><div class="ttdef"><b>Definition:</b> Drone.hpp:28</div></div>
 </div><!-- fragment --></li>
 <li><p class="startli">Use the available methods to control and monitor the drone. For example, you can set the light intensity, retrieve sensor data, or control the thrusters:</p>
 <div class="fragment"><div class="line">drone.<a class="code hl_function" href="classblunux_1_1drone_1_1_drone.html#a8259f5236859248c58f0b45f0dd90c0f">set_light</a>(0.5);  <span class="comment">// Set light intensity to 50%</span></div>
 <div class="line"><span class="keyword">auto</span> imuData = drone.<a class="code hl_function" href="classblunux_1_1drone_1_1_drone.html#a4347ba7c1e05f08e8f9236a21e708a0c">get_imu</a>();  <span class="comment">// Retrieve IMU data</span></div>
-<div class="line">drone.<a class="code hl_function" href="classblunux_1_1drone_1_1_pioneer_drone.html#ab2e0050f9a8c660bc18d3a2c6d347932">set_thrusters</a>(thrustersSetpoint);  <span class="comment">// Control thrusters</span></div>
+<div class="line">drone.set_thrusters(thrustersSetpoint);  <span class="comment">// Control thrusters</span></div>
 <div class="ttc" id="aclassblunux_1_1drone_1_1_drone_html_a4347ba7c1e05f08e8f9236a21e708a0c"><div class="ttname"><a href="classblunux_1_1drone_1_1_drone.html#a4347ba7c1e05f08e8f9236a21e708a0c">blunux::drone::Drone::get_imu</a></div><div class="ttdeci">imu::ImuData get_imu() const</div><div class="ttdoc">Get the calibrated IMU data.</div></div>
 <div class="ttc" id="aclassblunux_1_1drone_1_1_drone_html_a8259f5236859248c58f0b45f0dd90c0f"><div class="ttname"><a href="classblunux_1_1drone_1_1_drone.html#a8259f5236859248c58f0b45f0dd90c0f">blunux::drone::Drone::set_light</a></div><div class="ttdeci">void set_light(float intensity)</div><div class="ttdoc">Sets intensity of the drone lights.</div></div>
-<div class="ttc" id="aclassblunux_1_1drone_1_1_pioneer_drone_html_ab2e0050f9a8c660bc18d3a2c6d347932"><div class="ttname"><a href="classblunux_1_1drone_1_1_pioneer_drone.html#ab2e0050f9a8c660bc18d3a2c6d347932">blunux::drone::PioneerDrone::set_thrusters</a></div><div class="ttdeci">void set_thrusters(pmu::PioneerThrustersSetpoint thrusters_set_point)</div><div class="ttdoc">Set value of the thrusters.</div></div>
 </div><!-- fragment --></li>
 </ol>
 <h1><a class="anchor" id="autotoc_md2"></a>
@@ -111,7 +110,9 @@ Examples</h1>
 <p >Refer to these examples for practical usage scenarios and integration into your own projects.</p>
 <h1><a class="anchor" id="autotoc_md3"></a>
 API Reference</h1>
-<p >The Blueye SDK provides a comprehensive API for interacting with the drone. For detailed information about the available classes, methods, and data structures, follow the links on the top of the page. </p>
+<p >The Blueye SDK provides a comprehensive API for interacting with the drone. For detailed information about the available classes, methods, and data structures, follow the links on the top of the page.</p>
+<h1><a class="anchor" id="autotoc_md4"></a>
+Run the program on your drone</h1>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
