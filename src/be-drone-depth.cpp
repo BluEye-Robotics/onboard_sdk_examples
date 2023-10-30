@@ -1,5 +1,5 @@
-#include <fmt/core.h>        // For fmt::format
-#include <spdlog/cfg/env.h>  // Allows reading log level from env variable
+#include <fmt/core.h>       // For fmt::format
+#include <spdlog/spdlog.h>  // Allows reading log level from env variable
 
 #include <chrono>    // For chrono_literals
 #include <iostream>  // For cout
@@ -11,14 +11,11 @@ int main() {
   using namespace std::chrono_literals;  // For this_thread::sleep_for(1s);
   using namespace std;
 
-  // Read environment levels from an env variable. This was, you can set the
-  // spdlod level like this (standard is "info"):
-  // SPDLOG_LEVEL=debug be-drone
-  // SPDLOG_LEVEL=warning be-drone
-  spdlog::cfg::load_env_levels();
+  // Set log level to warn to mute log messages
+  spdlog::set_level(spdlog::level::warn);
 
   blunux::drone::PioneerDrone drone;
 
   this_thread::sleep_for(1s);
-  spdlog::info("Depth: {:.3f}", drone.get_depth());
+  cout << fmt::format("Depth: {:.3f}", drone.get_depth()) << endl;
 }
