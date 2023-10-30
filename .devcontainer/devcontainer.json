@@ -1,5 +1,5 @@
 {
-    "image": "ghcr.io/blueye-robotics/blunux-onboard-sdk:blunux-3.3-aarch64",
+    "image": "ghcr.io/blueye-robotics/blunux-onboard-sdk:blunux-3.3",
     "customizations": {
 		"vscode": {
 			"extensions": [
