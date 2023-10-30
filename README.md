@@ -8,12 +8,6 @@ https://blueye-robotics.github.io/onboard_sdk_examples/
 
 ## Build using docker
 
-### Pull the cross-compilation tool chain
-
-```
-docker pull ghcr.io/blueye-robotics/blunux-onboard-sdk:blunux-3.3
-```
-
 ### Start the container
 
 ```
