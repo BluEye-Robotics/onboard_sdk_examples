@@ -11,13 +11,13 @@ int main() {
   using namespace std::chrono_literals;  // For this_thread::sleep_for(1s);
   using namespace std;
 
+  blunux::drone::PioneerDrone drone;
+
   // Read environment levels from an env variable. This was, you can set the
   // spdlod level like this (standard is "info"):
   // SPDLOG_LEVEL=debug be-drone
   // SPDLOG_LEVEL=warning be-drone
   spdlog::cfg::load_env_levels();
-
-  blunux::drone::PioneerDrone drone;
 
   // Set right thruster to 10% for 1s
   drone.set_thrusters({.right = 100, .left = 0, .lat = 0, .vert = 0});

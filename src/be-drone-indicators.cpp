@@ -11,13 +11,13 @@ int main() {
   using namespace std::chrono_literals;  // For this_thread::sleep_for(1s);
   using namespace std;
 
+  blunux::drone::PioneerDrone drone;
+
   // Read environment levels from an env variable. This was, you can set the
   // spdlod level like this (standard is "info"):
   // SPDLOG_LEVEL=debug be-drone
   // SPDLOG_LEVEL=warning be-drone
   spdlog::cfg::load_env_levels();
-
-  blunux::drone::PioneerDrone drone;
 
   // Print current state of the indicators
   cout << fmt::format("Indicators: {}", drone.get_indicator()) << endl;
