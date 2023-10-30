@@ -1,9 +1,4 @@
 var searchData=
 [
-  ['set_5fforce_0',['set_force',['../classblunux_1_1drone_1_1_pioneer_drone.html#af13404cdd1463c7b79b7c789d20f966c',1,'blunux::drone::PioneerDrone']]],
-  ['set_5findicator_1',['set_indicator',['../classblunux_1_1drone_1_1_drone.html#a57fd5b037e2bcf1c889300b76f4f2ba2',1,'blunux::drone::Drone']]],
-  ['set_5flight_2',['set_light',['../classblunux_1_1drone_1_1_drone.html#a8259f5236859248c58f0b45f0dd90c0f',1,'blunux::drone::Drone']]],
-  ['set_5fstabilization_3',['set_stabilization',['../classblunux_1_1tilt_1_1_i_tilt_control.html#a75843af957e829abcb000351b8d16b6f',1,'blunux::tilt::ITiltControl']]],
-  ['set_5fthrusters_4',['set_thrusters',['../classblunux_1_1drone_1_1_pioneer_drone.html#ab2e0050f9a8c660bc18d3a2c6d347932',1,'blunux::drone::PioneerDrone']]],
-  ['set_5fvelocity_5',['set_velocity',['../classblunux_1_1tilt_1_1_i_tilt_control.html#a6098e9a0e0c1c7bd0a666ab9310092a8',1,'blunux::tilt::ITiltControl']]]
+  ['parse_0',['parse',['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_indicators_setpoint_01_4.html#a5f4f8c1b6b9addffc27285098e148726',1,'fmt::formatter&lt; blunux::pmu::IndicatorsSetpoint &gt;::parse()'],['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_pioneer_thrusters_setpoint_01_4.html#aae2f13f1fbbfbd08e557c7dc1fe51e02',1,'fmt::formatter&lt; blunux::pmu::PioneerThrustersSetpoint &gt;::parse()'],['../structfmt_1_1formatter_3_01blunux_1_1imu_1_1_imu_data_01_4.html#a2cb089bf80a34f9520f6a78dfb264c0b',1,'fmt::formatter&lt; blunux::imu::ImuData &gt;::parse()'],['../structfmt_1_1formatter_3_01blunux_1_1imu_1_1_imu_self_test_01_4.html#a4f45d0de20765dbf3923efe723bb0a5c',1,'fmt::formatter&lt; blunux::imu::ImuSelfTest &gt;::parse()'],['../structfmt_1_1formatter_3_01_eigen_1_1_vector3d_01_4.html#a010438ae032bcd8c92fdeb62e437f8b0',1,'fmt::formatter&lt; Eigen::Vector3d &gt;::parse()']]]
 ];

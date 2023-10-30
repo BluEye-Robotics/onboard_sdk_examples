@@ -6,7 +6,5 @@ var searchData=
   ['set_5fstabilization_3',['set_stabilization',['../classblunux_1_1tilt_1_1_i_tilt_control.html#a75843af957e829abcb000351b8d16b6f',1,'blunux::tilt::ITiltControl']]],
   ['set_5fthrusters_4',['set_thrusters',['../classblunux_1_1drone_1_1_pioneer_drone.html#ab2e0050f9a8c660bc18d3a2c6d347932',1,'blunux::drone::PioneerDrone']]],
   ['set_5fvelocity_5',['set_velocity',['../classblunux_1_1tilt_1_1_i_tilt_control.html#a6098e9a0e0c1c7bd0a666ab9310092a8',1,'blunux::tilt::ITiltControl']]],
-  ['startcalibration_6',['startCalibration',['../classblunux_1_1observer_1_1_i_compass_calibration.html#a18ac648a5109ab9106523b7e57939e40',1,'blunux::observer::ICompassCalibration']]],
-  ['stateestimates_7',['StateEstimates',['../structblunux_1_1observer_1_1_state_estimates.html',1,'blunux::observer']]],
-  ['surface_8',['surface',['../structblunux_1_1observer_1_1_state_estimates.html#ae9a0e9ea3b240f88a169120b2820c803',1,'blunux::observer::StateEstimates']]]
+  ['startcalibration_6',['startCalibration',['../classblunux_1_1observer_1_1_i_compass_calibration.html#a18ac648a5109ab9106523b7e57939e40',1,'blunux::observer::ICompassCalibration']]]
 ];
