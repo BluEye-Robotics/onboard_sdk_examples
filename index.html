@@ -85,7 +85,7 @@ Getting Started</h1>
 </div><!-- fragment --></li>
 </ol>
 <ol type="1">
-<li><p class="startli">Write your program <code>user_program.src</code></p>
+<li><p class="startli">Create a folder for your code and add <code>user_program.src</code></p>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span> </div>
 <div class="line"><span class="preprocessor"> #include &quot;drone/PioneerDrone.hpp&quot;</span></div>
 <div class="line"> </div>
@@ -130,8 +130,9 @@ Getting Started</h1>
 <div class="fragment"><div class="line">scp -O build/user_program sdk@192.168.1.101:</div>
 </div><!-- fragment --></li>
 <li><p class="startli">Run the program on the drone</p>
-<div class="fragment"><div class="line">ssh sdk@192.168.1.101: ./user_program</div>
-</div><!-- fragment --></li>
+<div class="fragment"><div class="line">ssh sdk@192.168.1.101 ./user_program</div>
+</div><!-- fragment --><p class="startli">You will see the output of your code, but also output from the library. The output from the library is prefixed with <code>blunux:</code> and can be deactivated in the user program, see for example <a href="be-drone-imu_8cpp-example.html">be-drone-imu.cpp</a>.</p>
+</li>
 </ol>
 <h1><a class="anchor" id="autotoc_md2"></a>
 Examples</h1>
