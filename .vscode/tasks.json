@@ -9,11 +9,17 @@
         "showReuseMessage": true,
     },
     "tasks": [
-        /* Configure Build Task */
         {
-            "label": "install on drone",
+            "label": "install on drone (scp)",
             "type": "shell",
             "command": "scp -r -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null build/staging/* sdk@192.168.1.101:",
+            "problemMatcher": []
+        },
+        {
+            "label": "install on drone (rsync)",
+            "type": "shell",
+            "command": "rsync -e 'ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null' -arvh build/staging/* sdk@192.168.1.101:",
+            "problemMatcher": []
         }
     ]
 }
