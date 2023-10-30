@@ -73,3 +73,7 @@ install(TARGETS be-drone-battery DESTINATION bin)
 add_executable(be-drone-attitude src/be-drone-attitude.cpp)
 target_link_libraries(be-drone-attitude ${blunux_LIBRARIES} ${SPDLOG_LIBRARIES} ${FMT_LIBRARIES})
 install(TARGETS be-drone-attitude DESTINATION bin)
+
+add_executable(be-drone-logging src/be-drone-logging.cpp)
+target_link_libraries(be-drone-logging ${blunux_LIBRARIES} ${SPDLOG_LIBRARIES} ${FMT_LIBRARIES})
+install(TARGETS be-drone-logging DESTINATION bin)
