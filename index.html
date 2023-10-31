@@ -85,7 +85,7 @@ Getting Started</h1>
 </div><!-- fragment --></li>
 </ol>
 <ol type="1">
-<li><p class="startli">Create a folder for your code and add <code>user_program.src</code></p>
+<li><p class="startli">Create a folder for your code and add <code>user_program.cpp</code></p>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span> </div>
 <div class="line"><span class="preprocessor"> #include &quot;drone/PioneerDrone.hpp&quot;</span></div>
 <div class="line"> </div>
@@ -154,10 +154,11 @@ API Reference</h1>
 <h1><a class="anchor" id="autotoc_md4"></a>
 Run the program on your drone</h1>
 <h2><a class="anchor" id="autotoc_md5"></a>
-Copy artifacts to drone</h2>
-<p >Copy the artifacts to the drone:</p>
-<div class="fragment"><div class="line">scp &lt;program-name&gt; sdk@192.168.1.101:</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md6"></a>
+Copy files to drone</h2>
+<p >Copy the files to the drone:</p>
+<div class="fragment"><div class="line">scp -O &lt;program-name&gt; sdk@192.168.1.101:</div>
+</div><!-- fragment --><p >The <code>-O</code> is for compatibility and not needed on all systems.</p>
+<h2><a class="anchor" id="autotoc_md6"></a>
 Prevent the start of the blueye control system</h2>
 <p >Create an empty file with the name <code>entrypoint</code>, make it executable, and copy it to the drone.</p>
 <div class="fragment"><div class="line">touch entrypoint</div>
