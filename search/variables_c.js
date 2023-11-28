@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['yaw_5frate_0',['yaw_rate',['../structblunux_1_1observer_1_1_state_estimates.html#a833ff09bf13bd85e254d0a4d1e11a725',1,'blunux::observer::StateEstimates']]],
-  ['yellow_1',['yellow',['../structblunux_1_1pmu_1_1_indicators_setpoint.html#a995aaa0bbf5eec2a4220cc49239dbea5',1,'blunux::pmu::IndicatorsSetpoint']]]
+  ['vert_0',['vert',['../structblunux_1_1pmu_1_1_pioneer_thrusters_setpoint.html#a3e7f20dba7f9ccd6505076fd615c8e13',1,'blunux::pmu::PioneerThrustersSetpoint']]]
 ];

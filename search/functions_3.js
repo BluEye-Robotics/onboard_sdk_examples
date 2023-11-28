@@ -13,10 +13,11 @@ var searchData=
   ['get_5fmodel_5fname_10',['get_model_name',['../classblunux_1_1drone_1_1_drone.html#aa40c8dfdb561a7ea74d703736bad32c6',1,'blunux::drone::Drone']]],
   ['get_5fthrusters_5fset_5fpoint_11',['get_thrusters_set_point',['../classblunux_1_1drone_1_1_pioneer_drone.html#a0afa2f798075368af1a5f5ea9e282d10',1,'blunux::drone::PioneerDrone']]],
   ['get_5fwater_5ftemperature_12',['get_water_temperature',['../classblunux_1_1drone_1_1_drone.html#a8046789779ba2959c054fd99282f2591',1,'blunux::drone::Drone']]],
-  ['getglobalalorientationaxis_13',['getGlobalalOrientationAxis',['../classblunux_1_1observer_1_1_i_observer_state.html#a03d0e804220f917cfe8b46fb7c181439',1,'blunux::observer::IObserverState']]],
-  ['getglobalattitudeeuler_14',['getGlobalAttitudeEuler',['../classblunux_1_1observer_1_1_i_observer_state.html#ab20b6eac9cd076940d1aaae558a541f1',1,'blunux::observer::IObserverState']]],
-  ['getglobalheading_15',['getGlobalHeading',['../classblunux_1_1observer_1_1_i_observer_state.html#ad01739ca7fff75fcad8fa65271e46b5c',1,'blunux::observer::IObserverState']]],
-  ['getlocalattitudeeuler_16',['getLocalAttitudeEuler',['../classblunux_1_1observer_1_1_i_observer_state.html#a10b5fdae4c0ed07c2b054c531d55269f',1,'blunux::observer::IObserverState']]],
-  ['getlocalorientationaxis_17',['getLocalOrientationAxis',['../classblunux_1_1observer_1_1_i_observer_state.html#a5deae45623df2da7fa3b571d81a8dcd2',1,'blunux::observer::IObserverState']]],
-  ['getstateestimates_18',['getStateEstimates',['../classblunux_1_1observer_1_1_i_observer_state.html#af525148a6eb65490f8e8ae742e40780b',1,'blunux::observer::IObserverState']]]
+  ['getcalibrationprogress_13',['getCalibrationProgress',['../classblunux_1_1observer_1_1_i_compass_calibration.html#a764287c646d86c285e7206047566f5eb',1,'blunux::observer::ICompassCalibration']]],
+  ['getglobalalorientationaxis_14',['getGlobalalOrientationAxis',['../classblunux_1_1observer_1_1_i_observer_state.html#a03d0e804220f917cfe8b46fb7c181439',1,'blunux::observer::IObserverState']]],
+  ['getglobalattitudeeuler_15',['getGlobalAttitudeEuler',['../classblunux_1_1observer_1_1_i_observer_state.html#ab20b6eac9cd076940d1aaae558a541f1',1,'blunux::observer::IObserverState']]],
+  ['getglobalheading_16',['getGlobalHeading',['../classblunux_1_1observer_1_1_i_observer_state.html#ad01739ca7fff75fcad8fa65271e46b5c',1,'blunux::observer::IObserverState']]],
+  ['getlocalattitudeeuler_17',['getLocalAttitudeEuler',['../classblunux_1_1observer_1_1_i_observer_state.html#a10b5fdae4c0ed07c2b054c531d55269f',1,'blunux::observer::IObserverState']]],
+  ['getlocalorientationaxis_18',['getLocalOrientationAxis',['../classblunux_1_1observer_1_1_i_observer_state.html#a5deae45623df2da7fa3b571d81a8dcd2',1,'blunux::observer::IObserverState']]],
+  ['getstateestimates_19',['getStateEstimates',['../classblunux_1_1observer_1_1_i_observer_state.html#af525148a6eb65490f8e8ae742e40780b',1,'blunux::observer::IObserverState']]]
 ];
