@@ -10,8 +10,9 @@ var searchData=
   ['formatter_3c_20blunux_3a_3apmu_3a_3apioneerthrusterssetpoint_20_3e_7',['formatter&lt; blunux::pmu::PioneerThrustersSetpoint &gt;',['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_pioneer_thrusters_setpoint_01_4.html',1,'fmt']]],
   ['formatter_3c_20blunux_3a_3apmu_3a_3apmuerrorcode_20_3e_8',['formatter&lt; blunux::pmu::PMUErrorCode &gt;',['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_p_m_u_error_code_01_4.html',1,'fmt']]],
   ['formatter_3c_20blunux_3a_3apmu_3a_3apmui2cstatuscode_20_3e_9',['formatter&lt; blunux::pmu::PMUI2CStatusCode &gt;',['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_p_m_u_i2_c_status_code_01_4.html',1,'fmt']]],
-  ['formatter_3c_20blunux_3a_3apmu_3a_3atescinfo_20_3e_10',['formatter&lt; blunux::pmu::TEscInfo &gt;',['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_t_esc_info_01_4.html',1,'fmt']]],
-  ['formatter_3c_20blunux_3a_3apmu_3a_3atpmuerror_20_3e_11',['formatter&lt; blunux::pmu::TPMUError &gt;',['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_t_p_m_u_error_01_4.html',1,'fmt']]],
-  ['formatter_3c_20blunux_3a_3apmu_3a_3atversioninfo_20_3e_12',['formatter&lt; blunux::pmu::TVersionInfo &gt;',['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_t_version_info_01_4.html',1,'fmt']]],
-  ['formatter_3c_20eigen_3a_3avector3d_20_3e_13',['formatter&lt; Eigen::Vector3d &gt;',['../structfmt_1_1formatter_3_01_eigen_1_1_vector3d_01_4.html',1,'fmt']]]
+  ['formatter_3c_20blunux_3a_3apmu_3a_3atbatteryinfo_20_3e_10',['formatter&lt; blunux::pmu::TBatteryInfo &gt;',['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_t_battery_info_01_4.html',1,'fmt']]],
+  ['formatter_3c_20blunux_3a_3apmu_3a_3atescinfo_20_3e_11',['formatter&lt; blunux::pmu::TEscInfo &gt;',['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_t_esc_info_01_4.html',1,'fmt']]],
+  ['formatter_3c_20blunux_3a_3apmu_3a_3atpmuerror_20_3e_12',['formatter&lt; blunux::pmu::TPMUError &gt;',['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_t_p_m_u_error_01_4.html',1,'fmt']]],
+  ['formatter_3c_20blunux_3a_3apmu_3a_3atversioninfo_20_3e_13',['formatter&lt; blunux::pmu::TVersionInfo &gt;',['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_t_version_info_01_4.html',1,'fmt']]],
+  ['formatter_3c_20eigen_3a_3avector3d_20_3e_14',['formatter&lt; Eigen::Vector3d &gt;',['../structfmt_1_1formatter_3_01_eigen_1_1_vector3d_01_4.html',1,'fmt']]]
 ];
