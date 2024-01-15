@@ -117,6 +117,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>add_dive_time
 <tr class="memitem:ae917d35ac0d683037bf1d18493dbc3dd"><td class="memItemLeft" align="right" valign="top"><a id="ae917d35ac0d683037bf1d18493dbc3dd" name="ae917d35ac0d683037bf1d18493dbc3dd"></a>
 virtual Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><b>getAccData</b> (int num) const =0</td></tr>
 <tr class="separator:ae917d35ac0d683037bf1d18493dbc3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a7715aff52999b3b8a25c58856a8bc1"><td class="memItemLeft" align="right" valign="top">virtual InitialMotionState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1observer_1_1_i_observer_state.html#a2a7715aff52999b3b8a25c58856a8bc1">getInitialMotionState</a> () const =0</td></tr>
+<tr class="memdesc:a2a7715aff52999b3b8a25c58856a8bc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the drone is stationary since boot.  <a href="classblunux_1_1observer_1_1_i_observer_state.html#a2a7715aff52999b3b8a25c58856a8bc1">More...</a><br /></td></tr>
+<tr class="separator:a2a7715aff52999b3b8a25c58856a8bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Interface for observing the state of a system. </p>
@@ -203,6 +206,34 @@ virtual Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><b>ge
 
 <p>Get the global heading angle. </p>
 <dl class="section return"><dt>Returns</dt><dd>The global heading angle in radians. </dd></dl>
+
+</div>
+</div>
+<a id="a2a7715aff52999b3b8a25c58856a8bc1" name="a2a7715aff52999b3b8a25c58856a8bc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a7715aff52999b3b8a25c58856a8bc1">&#9670;&#160;</a></span>getInitialMotionState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual InitialMotionState blunux::observer::IObserverState::getInitialMotionState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the drone is stationary since boot. </p>
+<dl class="section return"><dt>Returns</dt><dd>bool true if the drone is stationary since boot </dd></dl>
 
 </div>
 </div>

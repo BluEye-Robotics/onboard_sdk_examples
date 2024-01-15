@@ -17,12 +17,13 @@ var searchData=
   ['getglobalalorientationaxis_14',['getGlobalalOrientationAxis',['../classblunux_1_1observer_1_1_i_observer_state.html#a03d0e804220f917cfe8b46fb7c181439',1,'blunux::observer::IObserverState']]],
   ['getglobalattitudeeuler_15',['getGlobalAttitudeEuler',['../classblunux_1_1observer_1_1_i_observer_state.html#ab20b6eac9cd076940d1aaae558a541f1',1,'blunux::observer::IObserverState']]],
   ['getglobalheading_16',['getGlobalHeading',['../classblunux_1_1observer_1_1_i_observer_state.html#ad01739ca7fff75fcad8fa65271e46b5c',1,'blunux::observer::IObserverState']]],
-  ['getlocalattitudeeuler_17',['getLocalAttitudeEuler',['../classblunux_1_1observer_1_1_i_observer_state.html#a10b5fdae4c0ed07c2b054c531d55269f',1,'blunux::observer::IObserverState']]],
-  ['getlocalorientationaxis_18',['getLocalOrientationAxis',['../classblunux_1_1observer_1_1_i_observer_state.html#a5deae45623df2da7fa3b571d81a8dcd2',1,'blunux::observer::IObserverState']]],
-  ['getstateestimates_19',['getStateEstimates',['../classblunux_1_1observer_1_1_i_observer_state.html#af525148a6eb65490f8e8ae742e40780b',1,'blunux::observer::IObserverState']]],
-  ['green_20',['green',['../structblunux_1_1pmu_1_1_indicators_setpoint.html#a86498d60acf42f74b1c810172f4a8190',1,'blunux::pmu::IndicatorsSetpoint']]],
-  ['gyro_21',['gyro',['../structblunux_1_1imu_1_1_imu_data.html#aa0573a0fca64abf8559d48d37de6495b',1,'blunux::imu::ImuData']]],
-  ['gyro_5fmean_22',['gyro_mean',['../structblunux_1_1imu_1_1_imu_self_test.html#a224f1ff6dd66bc42eebad7b59ced2027',1,'blunux::imu::ImuSelfTest']]],
-  ['gyro_5fvariance_23',['gyro_variance',['../structblunux_1_1imu_1_1_imu_self_test.html#a1d71eb79345b55eda93725a9cd62ee36',1,'blunux::imu::ImuSelfTest']]],
-  ['gyro_5fvariance_5fok_24',['gyro_variance_ok',['../structblunux_1_1imu_1_1_imu_self_test.html#ad61961c7789c2f234d9727a007ef0659',1,'blunux::imu::ImuSelfTest']]]
+  ['getinitialmotionstate_17',['getInitialMotionState',['../classblunux_1_1observer_1_1_i_observer_state.html#a2a7715aff52999b3b8a25c58856a8bc1',1,'blunux::observer::IObserverState']]],
+  ['getlocalattitudeeuler_18',['getLocalAttitudeEuler',['../classblunux_1_1observer_1_1_i_observer_state.html#a10b5fdae4c0ed07c2b054c531d55269f',1,'blunux::observer::IObserverState']]],
+  ['getlocalorientationaxis_19',['getLocalOrientationAxis',['../classblunux_1_1observer_1_1_i_observer_state.html#a5deae45623df2da7fa3b571d81a8dcd2',1,'blunux::observer::IObserverState']]],
+  ['getstateestimates_20',['getStateEstimates',['../classblunux_1_1observer_1_1_i_observer_state.html#af525148a6eb65490f8e8ae742e40780b',1,'blunux::observer::IObserverState']]],
+  ['green_21',['green',['../structblunux_1_1pmu_1_1_indicators_setpoint.html#a86498d60acf42f74b1c810172f4a8190',1,'blunux::pmu::IndicatorsSetpoint']]],
+  ['gyro_22',['gyro',['../structblunux_1_1imu_1_1_imu_data.html#aa0573a0fca64abf8559d48d37de6495b',1,'blunux::imu::ImuData']]],
+  ['gyro_5fmean_23',['gyro_mean',['../structblunux_1_1imu_1_1_imu_self_test.html#a224f1ff6dd66bc42eebad7b59ced2027',1,'blunux::imu::ImuSelfTest']]],
+  ['gyro_5fvariance_24',['gyro_variance',['../structblunux_1_1imu_1_1_imu_self_test.html#a1d71eb79345b55eda93725a9cd62ee36',1,'blunux::imu::ImuSelfTest']]],
+  ['gyro_5fvariance_5fok_25',['gyro_variance_ok',['../structblunux_1_1imu_1_1_imu_self_test.html#ad61961c7789c2f234d9727a007ef0659',1,'blunux::imu::ImuSelfTest']]]
 ];

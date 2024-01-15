@@ -17,7 +17,8 @@ var searchData=
   ['getglobalalorientationaxis_14',['getGlobalalOrientationAxis',['../classblunux_1_1observer_1_1_i_observer_state.html#a03d0e804220f917cfe8b46fb7c181439',1,'blunux::observer::IObserverState']]],
   ['getglobalattitudeeuler_15',['getGlobalAttitudeEuler',['../classblunux_1_1observer_1_1_i_observer_state.html#ab20b6eac9cd076940d1aaae558a541f1',1,'blunux::observer::IObserverState']]],
   ['getglobalheading_16',['getGlobalHeading',['../classblunux_1_1observer_1_1_i_observer_state.html#ad01739ca7fff75fcad8fa65271e46b5c',1,'blunux::observer::IObserverState']]],
-  ['getlocalattitudeeuler_17',['getLocalAttitudeEuler',['../classblunux_1_1observer_1_1_i_observer_state.html#a10b5fdae4c0ed07c2b054c531d55269f',1,'blunux::observer::IObserverState']]],
-  ['getlocalorientationaxis_18',['getLocalOrientationAxis',['../classblunux_1_1observer_1_1_i_observer_state.html#a5deae45623df2da7fa3b571d81a8dcd2',1,'blunux::observer::IObserverState']]],
-  ['getstateestimates_19',['getStateEstimates',['../classblunux_1_1observer_1_1_i_observer_state.html#af525148a6eb65490f8e8ae742e40780b',1,'blunux::observer::IObserverState']]]
+  ['getinitialmotionstate_17',['getInitialMotionState',['../classblunux_1_1observer_1_1_i_observer_state.html#a2a7715aff52999b3b8a25c58856a8bc1',1,'blunux::observer::IObserverState']]],
+  ['getlocalattitudeeuler_18',['getLocalAttitudeEuler',['../classblunux_1_1observer_1_1_i_observer_state.html#a10b5fdae4c0ed07c2b054c531d55269f',1,'blunux::observer::IObserverState']]],
+  ['getlocalorientationaxis_19',['getLocalOrientationAxis',['../classblunux_1_1observer_1_1_i_observer_state.html#a5deae45623df2da7fa3b571d81a8dcd2',1,'blunux::observer::IObserverState']]],
+  ['getstateestimates_20',['getStateEstimates',['../classblunux_1_1observer_1_1_i_observer_state.html#af525148a6eb65490f8e8ae742e40780b',1,'blunux::observer::IObserverState']]]
 ];
