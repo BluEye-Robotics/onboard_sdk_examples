@@ -97,9 +97,9 @@ Inheritance diagram for blunux::drone::Drone:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a063cbc4226b63325f33ae86afdd63561"><td class="memItemLeft" align="right" valign="top"><a id="a063cbc4226b63325f33ae86afdd63561" name="a063cbc4226b63325f33ae86afdd63561"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Drone</b> (std::array&lt; std::shared_ptr&lt; imu::IImu &gt;, 2 &gt; imu)</td></tr>
-<tr class="separator:a063cbc4226b63325f33ae86afdd63561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53a098eb6c77dfe4cb22a46c42787028"><td class="memItemLeft" align="right" valign="top"><a id="a53a098eb6c77dfe4cb22a46c42787028" name="a53a098eb6c77dfe4cb22a46c42787028"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Drone</b> (std::array&lt; std::shared_ptr&lt; imu::IImu &gt;, 2 &gt; imu, std::shared_ptr&lt; pmu::IPMU &gt; pmu, std::shared_ptr&lt; <a class="el" href="classblunux_1_1tilt_1_1_i_tilt_control.html">tilt::ITiltControl</a> &gt; tilt_controller)</td></tr>
+<tr class="separator:a53a098eb6c77dfe4cb22a46c42787028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8259f5236859248c58f0b45f0dd90c0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1drone_1_1_drone.html#a8259f5236859248c58f0b45f0dd90c0f">set_light</a> (float intensity)</td></tr>
 <tr class="memdesc:a8259f5236859248c58f0b45f0dd90c0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets intensity of the drone lights.  <a href="classblunux_1_1drone_1_1_drone.html#a8259f5236859248c58f0b45f0dd90c0f">More...</a><br /></td></tr>
 <tr class="separator:a8259f5236859248c58f0b45f0dd90c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,9 +163,11 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a12e80f3ecbaa8e98d129028554b86448"><td class="memItemLeft" align="right" valign="top"><a id="a12e80f3ecbaa8e98d129028554b86448" name="a12e80f3ecbaa8e98d129028554b86448"></a>
 const std::array&lt; std::shared_ptr&lt; imu::IImu &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>imu</b></td></tr>
 <tr class="separator:a12e80f3ecbaa8e98d129028554b86448"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa94cf47a2f6f2c0e79724b2199a09130"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; pmu::IPMU &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1drone_1_1_drone.html#aa94cf47a2f6f2c0e79724b2199a09130">pmu</a></td></tr>
+<tr class="memitem:aa94cf47a2f6f2c0e79724b2199a09130"><td class="memItemLeft" align="right" valign="top"><a id="aa94cf47a2f6f2c0e79724b2199a09130" name="aa94cf47a2f6f2c0e79724b2199a09130"></a>
+const std::shared_ptr&lt; pmu::IPMU &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pmu</b></td></tr>
 <tr class="separator:aa94cf47a2f6f2c0e79724b2199a09130"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae06700f6cbdd86b863c9840b1d07301c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; observer::PioneerObserver &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1drone_1_1_drone.html#ae06700f6cbdd86b863c9840b1d07301c">observer</a></td></tr>
+<tr class="memitem:ae06700f6cbdd86b863c9840b1d07301c"><td class="memItemLeft" align="right" valign="top"><a id="ae06700f6cbdd86b863c9840b1d07301c" name="ae06700f6cbdd86b863c9840b1d07301c"></a>
+std::shared_ptr&lt; observer::PioneerObserver &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>observer</b></td></tr>
 <tr class="separator:ae06700f6cbdd86b863c9840b1d07301c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -483,55 +485,6 @@ const std::array&lt; std::shared_ptr&lt; imu::IImu &gt;, 2 &gt;&#160;</td><td cl
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="be-drone-lights_8cpp-example.html#a2">be-drone-lights.cpp</a>.</dd>
 </dl>
 
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae06700f6cbdd86b863c9840b1d07301c" name="ae06700f6cbdd86b863c9840b1d07301c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae06700f6cbdd86b863c9840b1d07301c">&#9670;&#160;</a></span>observer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;observer::PioneerObserver&gt; blunux::drone::Drone::observer</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">      std::make_shared&lt;observer::PioneerObserver&gt;(pmu, imu)</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa94cf47a2f6f2c0e79724b2199a09130" name="aa94cf47a2f6f2c0e79724b2199a09130"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa94cf47a2f6f2c0e79724b2199a09130">&#9670;&#160;</a></span>pmu</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::shared_ptr&lt;pmu::IPMU&gt; blunux::drone::Drone::pmu</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">      std::make_shared&lt;pmu::NonBlockingPMU&gt;()</div>
-</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

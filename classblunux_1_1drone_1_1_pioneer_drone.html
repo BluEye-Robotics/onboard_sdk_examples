@@ -106,9 +106,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0afa2f798075368af1a5f5ea9e282d10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the thrusters set point.  <a href="classblunux_1_1drone_1_1_pioneer_drone.html#a0afa2f798075368af1a5f5ea9e282d10">More...</a><br /></td></tr>
 <tr class="separator:a0afa2f798075368af1a5f5ea9e282d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classblunux_1_1drone_1_1_drone"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classblunux_1_1drone_1_1_drone')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classblunux_1_1drone_1_1_drone.html">blunux::drone::Drone</a></td></tr>
-<tr class="memitem:a063cbc4226b63325f33ae86afdd63561 inherit pub_methods_classblunux_1_1drone_1_1_drone"><td class="memItemLeft" align="right" valign="top"><a id="a063cbc4226b63325f33ae86afdd63561" name="a063cbc4226b63325f33ae86afdd63561"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Drone</b> (std::array&lt; std::shared_ptr&lt; imu::IImu &gt;, 2 &gt; imu)</td></tr>
-<tr class="separator:a063cbc4226b63325f33ae86afdd63561 inherit pub_methods_classblunux_1_1drone_1_1_drone"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53a098eb6c77dfe4cb22a46c42787028 inherit pub_methods_classblunux_1_1drone_1_1_drone"><td class="memItemLeft" align="right" valign="top"><a id="a53a098eb6c77dfe4cb22a46c42787028" name="a53a098eb6c77dfe4cb22a46c42787028"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Drone</b> (std::array&lt; std::shared_ptr&lt; imu::IImu &gt;, 2 &gt; imu, std::shared_ptr&lt; pmu::IPMU &gt; pmu, std::shared_ptr&lt; <a class="el" href="classblunux_1_1tilt_1_1_i_tilt_control.html">tilt::ITiltControl</a> &gt; tilt_controller)</td></tr>
+<tr class="separator:a53a098eb6c77dfe4cb22a46c42787028 inherit pub_methods_classblunux_1_1drone_1_1_drone"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8259f5236859248c58f0b45f0dd90c0f inherit pub_methods_classblunux_1_1drone_1_1_drone"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1drone_1_1_drone.html#a8259f5236859248c58f0b45f0dd90c0f">set_light</a> (float intensity)</td></tr>
 <tr class="memdesc:a8259f5236859248c58f0b45f0dd90c0f inherit pub_methods_classblunux_1_1drone_1_1_drone"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets intensity of the drone lights.  <a href="classblunux_1_1drone_1_1_drone.html#a8259f5236859248c58f0b45f0dd90c0f">More...</a><br /></td></tr>
 <tr class="separator:a8259f5236859248c58f0b45f0dd90c0f inherit pub_methods_classblunux_1_1drone_1_1_drone"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,9 +173,11 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a12e80f3ecbaa8e98d129028554b86448 inherit pro_attribs_classblunux_1_1drone_1_1_drone"><td class="memItemLeft" align="right" valign="top"><a id="a12e80f3ecbaa8e98d129028554b86448" name="a12e80f3ecbaa8e98d129028554b86448"></a>
 const std::array&lt; std::shared_ptr&lt; imu::IImu &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>imu</b></td></tr>
 <tr class="separator:a12e80f3ecbaa8e98d129028554b86448 inherit pro_attribs_classblunux_1_1drone_1_1_drone"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa94cf47a2f6f2c0e79724b2199a09130 inherit pro_attribs_classblunux_1_1drone_1_1_drone"><td class="memItemLeft" align="right" valign="top">const std::shared_ptr&lt; pmu::IPMU &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1drone_1_1_drone.html#aa94cf47a2f6f2c0e79724b2199a09130">pmu</a></td></tr>
+<tr class="memitem:aa94cf47a2f6f2c0e79724b2199a09130 inherit pro_attribs_classblunux_1_1drone_1_1_drone"><td class="memItemLeft" align="right" valign="top"><a id="aa94cf47a2f6f2c0e79724b2199a09130" name="aa94cf47a2f6f2c0e79724b2199a09130"></a>
+const std::shared_ptr&lt; pmu::IPMU &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>pmu</b></td></tr>
 <tr class="separator:aa94cf47a2f6f2c0e79724b2199a09130 inherit pro_attribs_classblunux_1_1drone_1_1_drone"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae06700f6cbdd86b863c9840b1d07301c inherit pro_attribs_classblunux_1_1drone_1_1_drone"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; observer::PioneerObserver &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1drone_1_1_drone.html#ae06700f6cbdd86b863c9840b1d07301c">observer</a></td></tr>
+<tr class="memitem:ae06700f6cbdd86b863c9840b1d07301c inherit pro_attribs_classblunux_1_1drone_1_1_drone"><td class="memItemLeft" align="right" valign="top"><a id="ae06700f6cbdd86b863c9840b1d07301c" name="ae06700f6cbdd86b863c9840b1d07301c"></a>
+std::shared_ptr&lt; observer::PioneerObserver &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>observer</b></td></tr>
 <tr class="separator:ae06700f6cbdd86b863c9840b1d07301c inherit pro_attribs_classblunux_1_1drone_1_1_drone"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
