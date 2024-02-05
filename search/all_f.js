@@ -1,15 +1,20 @@
 var searchData=
 [
-  ['tbatterychargingevents_0',['TBatteryChargingEvents',['../structblunux_1_1pmu_1_1_t_battery_charging_events.html',1,'blunux::pmu']]],
-  ['tbatteryinfo_1',['TBatteryInfo',['../structblunux_1_1pmu_1_1_t_battery_info.html',1,'blunux::pmu']]],
-  ['tbatterylifetimes_2',['TBatteryLifetimes',['../structblunux_1_1pmu_1_1_t_battery_lifetimes.html',1,'blunux::pmu']]],
-  ['tbatterysafetyevents_3',['TBatterySafetyEvents',['../structblunux_1_1pmu_1_1_t_battery_safety_events.html',1,'blunux::pmu']]],
-  ['tbatterystatus_4',['TBatteryStatus',['../structblunux_1_1pmu_1_1_t_battery_status.html',1,'blunux::pmu']]],
-  ['temp_5',['temp',['../structblunux_1_1imu_1_1_imu_data.html#a8a3af325b6803e732efe96e7772dd694',1,'blunux::imu::ImuData']]],
-  ['tescinfo_6',['TEscInfo',['../structblunux_1_1pmu_1_1_t_esc_info.html',1,'blunux::pmu']]],
-  ['tescsetserialreply_7',['TEscSetSerialReply',['../structblunux_1_1pmu_1_1_t_esc_set_serial_reply.html',1,'blunux::pmu']]],
-  ['test_5fpassed_8',['test_passed',['../structblunux_1_1imu_1_1_imu_self_test.html#ab60e7664d320ae35f06805342a886306',1,'blunux::imu::ImuSelfTest']]],
-  ['tpmuerror_9',['TPMUError',['../structblunux_1_1pmu_1_1_t_p_m_u_error.html',1,'blunux::pmu']]],
-  ['ttemphumidity_10',['TTempHumidity',['../structblunux_1_1pmu_1_1_t_temp_humidity.html',1,'blunux::pmu']]],
-  ['tversioninfo_11',['TVersionInfo',['../structblunux_1_1pmu_1_1_t_version_info.html',1,'blunux::pmu']]]
+  ['scp_20connection_20closed_0',['scp connection closed',['../index.html#autotoc_md14',1,'']]],
+  ['sd_20card_1',['User data on the SD card',['../index.html#autotoc_md12',1,'']]],
+  ['sdk_2',['Blueye SDK',['../index.html',1,'']]],
+  ['set_5fforce_3',['set_force',['../classblunux_1_1drone_1_1_pioneer_drone.html#af13404cdd1463c7b79b7c789d20f966c',1,'blunux::drone::PioneerDrone']]],
+  ['set_5findicator_4',['set_indicator',['../classblunux_1_1drone_1_1_drone.html#a57fd5b037e2bcf1c889300b76f4f2ba2',1,'blunux::drone::Drone']]],
+  ['set_5flight_5',['set_light',['../classblunux_1_1drone_1_1_drone.html#a8259f5236859248c58f0b45f0dd90c0f',1,'blunux::drone::Drone']]],
+  ['set_5fpitch_6',['set_pitch',['../classblunux_1_1tilt_1_1_i_tilt_control.html#a7cd100a4cf4144a133b1cb27fa7dbafa',1,'blunux::tilt::ITiltControl']]],
+  ['set_5fstabilization_7',['set_stabilization',['../classblunux_1_1tilt_1_1_i_tilt_control.html#a75843af957e829abcb000351b8d16b6f',1,'blunux::tilt::ITiltControl']]],
+  ['set_5fthrusters_8',['set_thrusters',['../classblunux_1_1drone_1_1_pioneer_drone.html#ab2e0050f9a8c660bc18d3a2c6d347932',1,'blunux::drone::PioneerDrone']]],
+  ['set_5fvelocity_9',['set_velocity',['../classblunux_1_1tilt_1_1_i_tilt_control.html#a6098e9a0e0c1c7bd0a666ab9310092a8',1,'blunux::tilt::ITiltControl']]],
+  ['ssh_20access_10',['ssh access',['../index.html#autotoc_md9',1,'']]],
+  ['start_20of_20the_20blueye_20control_20system_11',['Prevent the start of the blueye control system',['../index.html#autotoc_md6',1,'']]],
+  ['startcalibration_12',['startCalibration',['../classblunux_1_1observer_1_1_i_compass_calibration.html#a18ac648a5109ab9106523b7e57939e40',1,'blunux::observer::ICompassCalibration']]],
+  ['started_13',['Getting Started',['../index.html#autotoc_md1',1,'']]],
+  ['stateestimates_14',['StateEstimates',['../structblunux_1_1observer_1_1_state_estimates.html',1,'blunux::observer']]],
+  ['surface_15',['surface',['../structblunux_1_1observer_1_1_state_estimates.html#ae9a0e9ea3b240f88a169120b2820c803',1,'blunux::observer::StateEstimates']]],
+  ['system_16',['Prevent the start of the blueye control system',['../index.html#autotoc_md6',1,'']]]
 ];
