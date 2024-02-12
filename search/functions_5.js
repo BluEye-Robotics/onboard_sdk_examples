@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['parse_0',['parse',['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_indicators_setpoint_01_4.html#a5f4f8c1b6b9addffc27285098e148726',1,'fmt::formatter&lt; blunux::pmu::IndicatorsSetpoint &gt;::parse()'],['../structfmt_1_1formatter_3_01blunux_1_1pmu_1_1_pioneer_thrusters_setpoint_01_4.html#aae2f13f1fbbfbd08e557c7dc1fe51e02',1,'fmt::formatter&lt; blunux::pmu::PioneerThrustersSetpoint &gt;::parse()'],['../structfmt_1_1formatter_3_01blunux_1_1imu_1_1_imu_data_01_4.html#a2cb089bf80a34f9520f6a78dfb264c0b',1,'fmt::formatter&lt; blunux::imu::ImuData &gt;::parse()'],['../structfmt_1_1formatter_3_01blunux_1_1imu_1_1_imu_self_test_01_4.html#a4f45d0de20765dbf3923efe723bb0a5c',1,'fmt::formatter&lt; blunux::imu::ImuSelfTest &gt;::parse()'],['../structfmt_1_1formatter_3_01_eigen_1_1_vector3d_01_4.html#a010438ae032bcd8c92fdeb62e437f8b0',1,'fmt::formatter&lt; Eigen::Vector3d &gt;::parse()']]]
+  ['imu_5fself_5ftest_0',['imu_self_test',['../classblunux_1_1drone_1_1_drone.html#a7badd8c309dc1947ad7b5823f2d3372d',1,'blunux::drone::Drone']]],
+  ['is_5fcalibrated_1',['is_calibrated',['../classblunux_1_1tilt_1_1_i_tilt_control.html#aff0a1c47b6a9ada8cfb48dc0833a59f6',1,'blunux::tilt::ITiltControl']]],
+  ['is_5fstabalized_2',['is_stabalized',['../classblunux_1_1tilt_1_1_i_tilt_control.html#a205135640f861c9a6b9dc16b2890e169',1,'blunux::tilt::ITiltControl']]],
+  ['iscalibrating_3',['isCalibrating',['../classblunux_1_1observer_1_1_i_compass_calibration.html#a4ef5ee091c49e891628586fd5e934da7',1,'blunux::observer::ICompassCalibration']]],
+  ['iscalibrationfinished_4',['isCalibrationFinished',['../classblunux_1_1observer_1_1_i_compass_calibration.html#a722f5e9abc272546927afd340c3ef2f2',1,'blunux::observer::ICompassCalibration']]],
+  ['isreadyforthrustercalibration_5',['isReadyForThrusterCalibration',['../classblunux_1_1observer_1_1_i_compass_calibration.html#a575a7391ec9c17538702f2ba559f4584',1,'blunux::observer::ICompassCalibration']]]
 ];

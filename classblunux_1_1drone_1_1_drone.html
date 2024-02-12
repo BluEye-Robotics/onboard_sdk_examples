@@ -133,6 +133,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4347ba7c1e05f08e8f9236a21e708a0c" id="r_a4347ba7c1e05f08e8f9236a21e708a0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structblunux_1_1imu_1_1_imu_data.html">imu::ImuData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1drone_1_1_drone.html#a4347ba7c1e05f08e8f9236a21e708a0c">get_imu</a> () const</td></tr>
 <tr class="memdesc:a4347ba7c1e05f08e8f9236a21e708a0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the calibrated IMU data.  <br /></td></tr>
 <tr class="separator:a4347ba7c1e05f08e8f9236a21e708a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7badd8c309dc1947ad7b5823f2d3372d" id="r_a7badd8c309dc1947ad7b5823f2d3372d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structblunux_1_1imu_1_1_imu_self_test.html">imu::ImuSelfTest</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1drone_1_1_drone.html#a7badd8c309dc1947ad7b5823f2d3372d">imu_self_test</a> (unsigned int n) const</td></tr>
+<tr class="memdesc:a7badd8c309dc1947ad7b5823f2d3372d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the IMU self test result.  <br /></td></tr>
+<tr class="separator:a7badd8c309dc1947ad7b5823f2d3372d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f0828d54853ba1aed46cf541565a553" id="r_a6f0828d54853ba1aed46cf541565a553"><td class="memItemLeft" align="right" valign="top">sensors::DepthSelfTestResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1drone_1_1_drone.html#a6f0828d54853ba1aed46cf541565a553">depth_self_test</a> () const</td></tr>
+<tr class="memdesc:a6f0828d54853ba1aed46cf541565a553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the depth self test result.  <br /></td></tr>
+<tr class="separator:a6f0828d54853ba1aed46cf541565a553"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8e21e9c8ee42b4e1897cdde7b96f007" id="r_ac8e21e9c8ee42b4e1897cdde7b96f007"><td class="memItemLeft" align="right" valign="top">std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1drone_1_1_drone.html#ac8e21e9c8ee42b4e1897cdde7b96f007">get_battery_percentage</a> (bool wait_for_data=true) const</td></tr>
 <tr class="memdesc:ac8e21e9c8ee42b4e1897cdde7b96f007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the battery percentage.  <br /></td></tr>
 <tr class="separator:ac8e21e9c8ee42b4e1897cdde7b96f007"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,6 +180,26 @@ std::shared_ptr&lt; observer::PioneerObserver &gt;&#160;</td><td class="memItemR
 <div class="textblock"><p>Class representing a drone. </p>
 <p>This class represents a drone and provides functionalities for controlling and monitoring the drone's behavior. It encapsulates various components and subsystems of the drone, such as the flight controller, sensors, and communication interfaces. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6f0828d54853ba1aed46cf541565a553" name="a6f0828d54853ba1aed46cf541565a553"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f0828d54853ba1aed46cf541565a553">&#9670;&#160;</a></span>depth_self_test()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sensors::DepthSelfTestResult blunux::drone::Drone::depth_self_test </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the depth self test result. </p>
+<dl class="section return"><dt>Returns</dt><dd>Depth self test result </dd></dl>
+
+</div>
+</div>
 <a id="ac8e21e9c8ee42b4e1897cdde7b96f007" name="ac8e21e9c8ee42b4e1897cdde7b96f007"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8e21e9c8ee42b4e1897cdde7b96f007">&#9670;&#160;</a></span>get_battery_percentage()</h2>
 
@@ -428,6 +454,33 @@ std::shared_ptr&lt; observer::PioneerObserver &gt;&#160;</td><td class="memItemR
 
 <p>Get the water temperature. </p>
 <dl class="section return"><dt>Returns</dt><dd>Water temperature in °C </dd></dl>
+
+</div>
+</div>
+<a id="a7badd8c309dc1947ad7b5823f2d3372d" name="a7badd8c309dc1947ad7b5823f2d3372d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7badd8c309dc1947ad7b5823f2d3372d">&#9670;&#160;</a></span>imu_self_test()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structblunux_1_1imu_1_1_imu_self_test.html">imu::ImuSelfTest</a> blunux::drone::Drone::imu_self_test </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the IMU self test result. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>IMU number</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Imu self test result </dd></dl>
 
 </div>
 </div>
