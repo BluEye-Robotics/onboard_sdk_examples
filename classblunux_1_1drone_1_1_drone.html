@@ -163,6 +163,15 @@ std::shared_ptr&lt; <a class="el" href="classblunux_1_1pmu_1_1_i_p_m_u_callbacks
 <tr class="memitem:a4f4bd81042dfcf7e1ab5798cd9a159d6" id="r_a4f4bd81042dfcf7e1ab5798cd9a159d6"><td class="memItemLeft" align="right" valign="top"><a id="a4f4bd81042dfcf7e1ab5798cd9a159d6" name="a4f4bd81042dfcf7e1ab5798cd9a159d6"></a>
 std::shared_ptr&lt; <a class="el" href="classblunux_1_1observer_1_1_i_observer_state.html">observer::IObserverState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>observer_state</b> ()</td></tr>
 <tr class="separator:a4f4bd81042dfcf7e1ab5798cd9a159d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4750ea3ef86614e235f9ee0b686f8042" id="r_a4750ea3ef86614e235f9ee0b686f8042"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1drone_1_1_drone.html#a4750ea3ef86614e235f9ee0b686f8042">set_fluid_density</a> (double density)</td></tr>
+<tr class="memdesc:a4750ea3ef86614e235f9ee0b686f8042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the fluid density to change between saltwater and freshwater for the depth output.  <br /></td></tr>
+<tr class="separator:a4750ea3ef86614e235f9ee0b686f8042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66e67126321e3105a379757d3a650092" id="r_a66e67126321e3105a379757d3a650092"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1drone_1_1_drone.html#a66e67126321e3105a379757d3a650092">get_fluid_density</a> () const</td></tr>
+<tr class="memdesc:a66e67126321e3105a379757d3a650092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the fluid density.  <br /></td></tr>
+<tr class="separator:a66e67126321e3105a379757d3a650092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bff52cadc67da3d56ab26f4d785b675" id="r_a8bff52cadc67da3d56ab26f4d785b675"><td class="memItemLeft" align="right" valign="top">blueye::protocol::PressureSensorType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1drone_1_1_drone.html#a8bff52cadc67da3d56ab26f4d785b675">get_depth_sensor_type</a> () const</td></tr>
+<tr class="memdesc:a8bff52cadc67da3d56ab26f4d785b675"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the depth sensor type.  <br /></td></tr>
+<tr class="separator:a8bff52cadc67da3d56ab26f4d785b675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -298,6 +307,62 @@ std::shared_ptr&lt; observer::PioneerObserver &gt;&#160;</td><td class="memItemR
 <dl class="section return"><dt>Returns</dt><dd>Depth in m </dd></dl>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="be-drone-depth_8cpp-example.html#a1">be-drone-depth.cpp</a>.</dd>
 </dl>
+
+</div>
+</div>
+<a id="a8bff52cadc67da3d56ab26f4d785b675" name="a8bff52cadc67da3d56ab26f4d785b675"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bff52cadc67da3d56ab26f4d785b675">&#9670;&#160;</a></span>get_depth_sensor_type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">blueye::protocol::PressureSensorType blunux::drone::Drone::get_depth_sensor_type </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the depth sensor type. </p>
+<dl class="section return"><dt>Returns</dt><dd>blueye::protocol::PressureSensorType Depth sensor type </dd></dl>
+
+</div>
+</div>
+<a id="a66e67126321e3105a379757d3a650092" name="a66e67126321e3105a379757d3a650092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66e67126321e3105a379757d3a650092">&#9670;&#160;</a></span>get_fluid_density()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double blunux::drone::Drone::get_fluid_density </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the fluid density. </p>
+<dl class="section return"><dt>Returns</dt><dd>double density in [g/L] </dd></dl>
 
 </div>
 </div>
@@ -481,6 +546,41 @@ std::shared_ptr&lt; observer::PioneerObserver &gt;&#160;</td><td class="memItemR
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Imu self test result </dd></dl>
+
+</div>
+</div>
+<a id="a4750ea3ef86614e235f9ee0b686f8042" name="a4750ea3ef86614e235f9ee0b686f8042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4750ea3ef86614e235f9ee0b686f8042">&#9670;&#160;</a></span>set_fluid_density()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void blunux::drone::Drone::set_fluid_density </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>density</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the fluid density to change between saltwater and freshwater for the depth output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">density</td><td>Density in [g/L] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
 </div>
 </div>
