@@ -541,8 +541,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00429" name="l00429"></a><span class="lineno">  429</span>    <span class="keywordflow">return</span> ctx.begin();</div>
 <div class="line"><a id="l00430" name="l00430"></a><span class="lineno">  430</span>  }</div>
 <div class="line"><a id="l00431" name="l00431"></a><span class="lineno">  431</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> FormatContext&gt;</div>
-<div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span>  <span class="comment">// NOLINTNEXTLINE(runtime/references)</span></div>
-<div class="line"><a id="l00433" name="l00433"></a><span class="lineno">  433</span>  <span class="keyword">auto</span> format(blunux::pmu::PMUErrorCode <span class="keyword">const</span>&amp; error, FormatContext&amp; ctx) {</div>
+<div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span>  <span class="keyword">auto</span> format(blunux::pmu::PMUErrorCode <span class="keyword">const</span>&amp; error,</div>
+<div class="line"><a id="l00433" name="l00433"></a><span class="lineno">  433</span>              FormatContext&amp; ctx)<span class="keyword"> const </span>{  <span class="comment">// NOLINT(runtime/references)</span></div>
 <div class="line"><a id="l00434" name="l00434"></a><span class="lineno">  434</span>    <span class="keywordflow">switch</span> (error) {</div>
 <div class="line"><a id="l00435" name="l00435"></a><span class="lineno">  435</span>      <span class="keywordflow">case</span> blunux::pmu::PMUErrorCode::NoMagicByte:</div>
 <div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span>        <span class="keywordflow">return</span> fmt::format_to(ctx.out(), <span class="stringliteral">&quot;NoMagicByte&quot;</span>);</div>
@@ -582,8 +582,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00468" name="l00468"></a><span class="lineno">  468</span>    <span class="keywordflow">return</span> ctx.begin();</div>
 <div class="line"><a id="l00469" name="l00469"></a><span class="lineno">  469</span>  }</div>
 <div class="line"><a id="l00470" name="l00470"></a><span class="lineno">  470</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> FormatContext&gt;</div>
-<div class="line"><a id="l00471" name="l00471"></a><span class="lineno">  471</span>  <span class="comment">// NOLINTNEXTLINE(runtime/references)</span></div>
-<div class="line"><a id="l00472" name="l00472"></a><span class="lineno">  472</span>  <span class="keyword">auto</span> format(blunux::pmu::PMUI2CStatusCode <span class="keyword">const</span>&amp; status, FormatContext&amp; ctx) {</div>
+<div class="line"><a id="l00471" name="l00471"></a><span class="lineno">  471</span>  <span class="keyword">auto</span> format(blunux::pmu::PMUI2CStatusCode <span class="keyword">const</span>&amp; status,</div>
+<div class="line"><a id="l00472" name="l00472"></a><span class="lineno">  472</span>              FormatContext&amp; ctx)<span class="keyword"> const </span>{  <span class="comment">// NOLINT(runtime/references)</span></div>
 <div class="line"><a id="l00473" name="l00473"></a><span class="lineno">  473</span>    <span class="keywordflow">switch</span> (status) {</div>
 <div class="line"><a id="l00474" name="l00474"></a><span class="lineno">  474</span>      <span class="keywordflow">case</span> blunux::pmu::PMUI2CStatusCode::Ok:</div>
 <div class="line"><a id="l00475" name="l00475"></a><span class="lineno">  475</span>        <span class="keywordflow">return</span> fmt::format_to(ctx.out(), <span class="stringliteral">&quot;Ok&quot;</span>);</div>
@@ -623,7 +623,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00507" name="l00507"></a><span class="lineno">  507</span> </div>
 <div class="line"><a id="l00508" name="l00508"></a><span class="lineno">  508</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> FormatContext&gt;</div>
 <div class="line"><a id="l00509" name="l00509"></a><span class="lineno">  509</span>  <span class="comment">// NOLINTNEXTLINE(runtime/references)</span></div>
-<div class="line"><a id="l00510" name="l00510"></a><span class="lineno">  510</span>  <span class="keyword">auto</span> format(<a class="code hl_struct" href="structblunux_1_1pmu_1_1_t_p_m_u_error.html">blunux::pmu::TPMUError</a> <span class="keyword">const</span>&amp; error, FormatContext&amp; ctx) {</div>
+<div class="line"><a id="l00510" name="l00510"></a><span class="lineno">  510</span>  <span class="keyword">auto</span> format(<a class="code hl_struct" href="structblunux_1_1pmu_1_1_t_p_m_u_error.html">blunux::pmu::TPMUError</a> <span class="keyword">const</span>&amp; error, FormatContext&amp; ctx)<span class="keyword"> const </span>{</div>
 <div class="line"><a id="l00511" name="l00511"></a><span class="lineno">  511</span>    <span class="keywordflow">return</span> fmt::format_to(ctx.out(), <span class="stringliteral">&quot;{}&quot;</span>, error.errorcode);</div>
 <div class="line"><a id="l00512" name="l00512"></a><span class="lineno">  512</span>  }</div>
 <div class="line"><a id="l00513" name="l00513"></a><span class="lineno">  513</span>};</div>
