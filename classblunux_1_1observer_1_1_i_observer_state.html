@@ -123,6 +123,9 @@ virtual Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><b>ge
 <tr class="memitem:a2a7715aff52999b3b8a25c58856a8bc1" id="r_a2a7715aff52999b3b8a25c58856a8bc1"><td class="memItemLeft" align="right" valign="top">virtual InitialMotionState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1observer_1_1_i_observer_state.html#a2a7715aff52999b3b8a25c58856a8bc1">getInitialMotionState</a> () const =0</td></tr>
 <tr class="memdesc:a2a7715aff52999b3b8a25c58856a8bc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the drone is stationary since boot.  <br /></td></tr>
 <tr class="separator:a2a7715aff52999b3b8a25c58856a8bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af96ff2d1468c2c700bdc09ccd8e2aa08" id="r_af96ff2d1468c2c700bdc09ccd8e2aa08"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classblunux_1_1observer_1_1_i_observer_state.html#af96ff2d1468c2c700bdc09ccd8e2aa08">isCompassFullCalibrationValid</a> () const =0</td></tr>
+<tr class="memdesc:af96ff2d1468c2c700bdc09ccd8e2aa08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the calibration is valid.  <br /></td></tr>
+<tr class="separator:af96ff2d1468c2c700bdc09ccd8e2aa08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for observing the state of a system. </p>
@@ -321,6 +324,34 @@ virtual Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><b>ge
 
 <p>Get state estimates. </p>
 <dl class="section return"><dt>Returns</dt><dd>State estimates including depth, depth rate, surface level, heading, and yaw rate. </dd></dl>
+
+</div>
+</div>
+<a id="af96ff2d1468c2c700bdc09ccd8e2aa08" name="af96ff2d1468c2c700bdc09ccd8e2aa08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af96ff2d1468c2c700bdc09ccd8e2aa08">&#9670;&#160;</a></span>isCompassFullCalibrationValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool blunux::observer::IObserverState::isCompassFullCalibrationValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the calibration is valid. </p>
+<dl class="section return"><dt>Returns</dt><dd>bool true if the calibration is valid </dd></dl>
 
 </div>
 </div>

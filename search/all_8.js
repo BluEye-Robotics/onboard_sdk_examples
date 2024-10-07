@@ -11,6 +11,7 @@ var searchData=
   ['is_5fstabilized_8',['is_stabilized',['../classblunux_1_1tilt_1_1_i_tilt_control.html#a02737f13470b1a6c98b822c6f0d94ef4',1,'blunux::tilt::ITiltControl']]],
   ['iscalibrating_9',['isCalibrating',['../classblunux_1_1observer_1_1_i_compass_calibration.html#a4ef5ee091c49e891628586fd5e934da7',1,'blunux::observer::ICompassCalibration']]],
   ['iscalibrationfinished_10',['isCalibrationFinished',['../classblunux_1_1observer_1_1_i_compass_calibration.html#a722f5e9abc272546927afd340c3ef2f2',1,'blunux::observer::ICompassCalibration']]],
-  ['isreadyforthrustercalibration_11',['isReadyForThrusterCalibration',['../classblunux_1_1observer_1_1_i_compass_calibration.html#a575a7391ec9c17538702f2ba559f4584',1,'blunux::observer::ICompassCalibration']]],
-  ['itiltcontrol_12',['ITiltControl',['../classblunux_1_1tilt_1_1_i_tilt_control.html',1,'blunux::tilt']]]
+  ['iscompassfullcalibrationvalid_11',['isCompassFullCalibrationValid',['../classblunux_1_1observer_1_1_i_observer_state.html#af96ff2d1468c2c700bdc09ccd8e2aa08',1,'blunux::observer::IObserverState']]],
+  ['isreadyforthrustercalibration_12',['isReadyForThrusterCalibration',['../classblunux_1_1observer_1_1_i_compass_calibration.html#a575a7391ec9c17538702f2ba559f4584',1,'blunux::observer::ICompassCalibration']]],
+  ['itiltcontrol_13',['ITiltControl',['../classblunux_1_1tilt_1_1_i_tilt_control.html',1,'blunux::tilt']]]
 ];
